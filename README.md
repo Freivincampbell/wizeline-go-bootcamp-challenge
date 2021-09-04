@@ -37,7 +37,7 @@ Also, you are able to see the test coverage running the fallow command:
 
 To format all code you can run:
 ```bash 
-    npm format
+    yarn format
 ```
 
 The port by default is **#3000** so to see the endpoints you can use the table below:

@@ -7,7 +7,7 @@ This project was made with the follow technologies:
 1. Nestjs, v: 8.1.1
 2. Jestjs, v: 27.0.6
 
-The project was created under Javascript tool.
+The project was created under Javascript tools.
 
 After downloading the project, you must run on your command line to install all dependencies:
 

@@ -32,7 +32,7 @@ To run e2e tests you can use
 
 Also, you are able to see the test coverage running the fallow command:
 ```bash 
-    test:cov
+    yarn test:cov
 ```
 
 To format all code you can run:

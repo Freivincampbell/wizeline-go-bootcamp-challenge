@@ -21,4 +21,20 @@ describe('Basic App (e2e)', () => {
 			.expect(200)
 			.expect('Hello World!');
 	});
+
+	it('/open-endpoint (GET)', () => {
+		return request(app.getHttpServer())
+			.get('/open-endpoint/1')
+			.expect(200)
+			.expect({
+				userId: 1,
+				id: 1,
+				title: 'delectus aut autem',
+				completed: false
+			});
+	});
+
+	it('it should fail when a route does not match (GET)', () => {
+		return request(app.getHttpServer()).get('/open-endpoints').expect(404);
+	});
 });

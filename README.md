@@ -4,7 +4,7 @@ Go Bootcamp Q3 2021 Selection Challenge
 
 This project was made with the follow technologies:
 
-1. Nestjs, v: 8.1.1
+1. Nestjs, v: 8.0.0
 2. Jestjs, v: 27.0.6
 
 The project was created under Javascript tools.
